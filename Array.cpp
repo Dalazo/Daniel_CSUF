@@ -29,7 +29,6 @@ for (unsigned int i = 0; i < NumOfArr; i++)
 
 
 
-cout << "Here it is in reverse" << endl;
 
 ReverseArray(newArr, NumOfArr);
 
