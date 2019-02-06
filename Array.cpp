@@ -42,6 +42,18 @@ return 0;
 void ReverseArray (int arr[], int size)
 {
 
+	
+	cout << "Here it is in reverse: " << endl;
+
+	
+	for (int i = (size-1); 0 <= i; i--)
+	{
+
+		cout << arr[i] << endl;
+
+
+	}
+
 
 
 
