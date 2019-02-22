@@ -101,8 +101,8 @@ for (unsigned int i = 0; i < size; i++)
 {
 
 outfile << arr[i].fullName() << " ";
-outfile << arr[i].getHoursWorked()<< " ";
-outfile << arr[i].getPayRate() << endl;
+outfile << arr[i].totalPay() << endl;
+
 
 
 }
