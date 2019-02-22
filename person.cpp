@@ -1,5 +1,6 @@
 
 
+
 #include "person.h"
 #include <string>
 
@@ -8,6 +9,10 @@ Person::Person()
 
 }
 
+float Person::totalPay()
+{
+ return hoursWorked * payRate   
+}
 void Person::setHoursWorked(float hours)
 {
 
