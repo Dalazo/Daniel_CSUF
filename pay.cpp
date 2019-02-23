@@ -54,10 +54,10 @@ while (getline(myfile,linecheck)){
 
     counter++;
 }
-myfile.close();
 
-myfile.open("data.txt");
-cout << "File is open: Reading contents" << endl;
+
+myfile.clear();
+myfile.seekg(0,ios::beg);
 
 while (!myfile.eof())
 {
@@ -102,8 +102,6 @@ for (unsigned int i = 0; i < size; i++)
 
 outfile << arr[i].fullName() << " ";
 outfile << arr[i].totalPay() << endl;
-
-
 
 }
 
