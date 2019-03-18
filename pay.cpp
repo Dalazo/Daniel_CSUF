@@ -16,12 +16,12 @@ int main()
 {
 int FileMax = 20;
 int fileActual;
-Person myarr[20];
+Person employees[20];
 
-fileActual = readData(myarr,FileMax);
+fileActual = readData(employees,FileMax);
 
 
-writeData(myarr,fileActual);
+writeData(employees,fileActual);
 
 
 return 0;
